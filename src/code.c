@@ -4,7 +4,7 @@
 
 int random_int(int max)
 {
-  return rand() % max;
+  return rand()*max / RAND_MAX;
 }
 
 int main(int argc, char *argv[])
